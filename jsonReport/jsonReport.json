@@ -1,0 +1,1325 @@
+{
+  "config": {
+    "configFile": "D:\\5\\playwright_orangehrm\\playwright.config.ts",
+    "rootDir": "D:/5/playwright_orangehrm",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonReport/jsonReport.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "D:/5/playwright_orangehrm/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "D:/5/playwright_orangehrm",
+        "testIgnore": [],
+        "testMatch": [
+          "tests/*.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.34.3",
+    "workers": 2,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "tests\\bankaccounts-page.spec.ts",
+      "file": "tests/bankaccounts-page.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Bank Account",
+          "file": "tests/bankaccounts-page.spec.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Creat Bank Account New",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 8251,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-06-20T07:51:18.592Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-bankaccounts-page-Bank-Account-Creat-Bank-Account-New-chromium\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-bankaccounts-page-Bank-Account-Creat-Bank-Account-New-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aafb6b56c00262b187fc-0913b3189a08b5f8fd4a",
+              "file": "tests/bankaccounts-page.spec.ts",
+              "line": 12,
+              "column": 9
+            },
+            {
+              "title": "Unfill from Creat BankAccount",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 7396,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-06-20T07:51:18.581Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-bankaccounts-page-Bank-Account-Unfill-from-Creat-BankAccount-chromium\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-bankaccounts-page-Bank-Account-Unfill-from-Creat-BankAccount-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aafb6b56c00262b187fc-266fc9be894ff338782a",
+              "file": "tests/bankaccounts-page.spec.ts",
+              "line": 19,
+              "column": 9
+            },
+            {
+              "title": "Fill from Creat Bankaccount at least requid",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 6928,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-06-20T07:51:29.670Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-bankaccounts-page-Bank-Account-Fill-from-Creat-Bankaccount-at-least-requid-chromium\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-bankaccounts-page-Bank-Account-Fill-from-Creat-Bankaccount-at-least-requid-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aafb6b56c00262b187fc-c95e0a8214707761a6b8",
+              "file": "tests/bankaccounts-page.spec.ts",
+              "line": 26,
+              "column": 9
+            },
+            {
+              "title": "TC_01 Fill BankName , Routing & Account is't enough condition ",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 6283,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-06-20T07:51:29.983Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-bankaccounts-page-Bank-Account-TC-01-Fill-BankName-Routing-Account-is-t-enough-condition--chromium\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-bankaccounts-page-Bank-Account-TC-01-Fill-BankName-Routing-Account-is-t-enough-condition--chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aafb6b56c00262b187fc-adafe998f7a32352d904",
+              "file": "tests/bankaccounts-page.spec.ts",
+              "line": 33,
+              "column": 9
+            },
+            {
+              "title": "TC_02 Fill BankName , Routing & Account is't enough condition ",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 6725,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-06-20T07:51:36.274Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-bankaccounts-page-Bank-Account-TC-02-Fill-BankName-Routing-Account-is-t-enough-condition--chromium\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-bankaccounts-page-Bank-Account-TC-02-Fill-BankName-Routing-Account-is-t-enough-condition--chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aafb6b56c00262b187fc-e39e10879da755f9da7a",
+              "file": "tests/bankaccounts-page.spec.ts",
+              "line": 41,
+              "column": 9
+            },
+            {
+              "title": "Delete BankAccount",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 6582,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-06-20T07:51:36.628Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-bankaccounts-page-Bank-Account-Delete-BankAccount-chromium\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-bankaccounts-page-Bank-Account-Delete-BankAccount-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aafb6b56c00262b187fc-224347a55af607d24a9f",
+              "file": "tests/bankaccounts-page.spec.ts",
+              "line": 49,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "tests\\login-page.spec.ts",
+      "file": "tests/login-page.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Login",
+          "file": "tests/login-page.spec.ts",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Happy Case - New account",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "issue",
+                      "description": ""
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "failed",
+                      "duration": 9563,
+                      "error": {
+                        "message": "\u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeHidden\u001b[2m()\u001b[22m\nCall log:\n  \u001b[2m- expect.toBeHidden with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('[type=\\'submit\\']')\u001b[22m\n\u001b[2m  -   locator resolved to <button tabindex=\"0\" type=\"submit\" data-test=\"signin-sub…>…</button>\u001b[22m\n\u001b[2m  -   unexpected value \"visible\"\u001b[22m\n\u001b[2m  -   locator resolved to <button tabindex=\"0\" type=\"submit\" data-test=\"signin-sub…>…</button>\u001b[22m\n\u001b[2m  -   unexpected value \"visible\"\u001b[22m\n\u001b[2m  -   locator resolved to <button tabindex=\"0\" type=\"submit\" data-test=\"signin-sub…>…</button>\u001b[22m\n\u001b[2m  -   unexpected value \"visible\"\u001b[22m\n\u001b[2m  -   locator resolved to <button tabindex=\"0\" type=\"submit\" data-test=\"signin-sub…>…</button>\u001b[22m\n\u001b[2m  -   unexpected value \"visible\"\u001b[22m\n\u001b[2m  -   locator resolved to <button tabindex=\"0\" type=\"submit\" data-test=\"signin-sub…>…</button>\u001b[22m\n\u001b[2m  -   unexpected value \"visible\"\u001b[22m\n\u001b[2m  -   locator resolved to <button tabindex=\"0\" type=\"submit\" data-test=\"signin-sub…>…</button>\u001b[22m\n\u001b[2m  -   unexpected value \"visible\"\u001b[22m\n\u001b[2m  -   locator resolved to <button tabindex=\"0\" type=\"submit\" data-test=\"signin-sub…>…</button>\u001b[22m\n\u001b[2m  -   unexpected value \"visible\"\u001b[22m\n\u001b[2m  -   locator resolved to <button tabindex=\"0\" type=\"submit\" data-test=\"signin-sub…>…</button>\u001b[22m\n\u001b[2m  -   unexpected value \"visible\"\u001b[22m\n",
+                        "stack": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeHidden\u001b[2m()\u001b[22m\nCall log:\n  \u001b[2m- expect.toBeHidden with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('[type=\\'submit\\']')\u001b[22m\n\u001b[2m  -   locator resolved to <button tabindex=\"0\" type=\"submit\" data-test=\"signin-sub…>…</button>\u001b[22m\n\u001b[2m  -   unexpected value \"visible\"\u001b[22m\n\u001b[2m  -   locator resolved to <button tabindex=\"0\" type=\"submit\" data-test=\"signin-sub…>…</button>\u001b[22m\n\u001b[2m  -   unexpected value \"visible\"\u001b[22m\n\u001b[2m  -   locator resolved to <button tabindex=\"0\" type=\"submit\" data-test=\"signin-sub…>…</button>\u001b[22m\n\u001b[2m  -   unexpected value \"visible\"\u001b[22m\n\u001b[2m  -   locator resolved to <button tabindex=\"0\" type=\"submit\" data-test=\"signin-sub…>…</button>\u001b[22m\n\u001b[2m  -   unexpected value \"visible\"\u001b[22m\n\u001b[2m  -   locator resolved to <button tabindex=\"0\" type=\"submit\" data-test=\"signin-sub…>…</button>\u001b[22m\n\u001b[2m  -   unexpected value \"visible\"\u001b[22m\n\u001b[2m  -   locator resolved to <button tabindex=\"0\" type=\"submit\" data-test=\"signin-sub…>…</button>\u001b[22m\n\u001b[2m  -   unexpected value \"visible\"\u001b[22m\n\u001b[2m  -   locator resolved to <button tabindex=\"0\" type=\"submit\" data-test=\"signin-sub…>…</button>\u001b[22m\n\u001b[2m  -   unexpected value \"visible\"\u001b[22m\n\u001b[2m  -   locator resolved to <button tabindex=\"0\" type=\"submit\" data-test=\"signin-sub…>…</button>\u001b[22m\n\u001b[2m  -   unexpected value \"visible\"\u001b[22m\n\n    at LoginPage.login (D:\\5\\playwright_orangehrm\\utils\\login.ts:38:37)\n    at D:\\5\\playwright_orangehrm\\tests\\login-page.spec.ts:10:9",
+                        "location": {
+                          "file": "D:\\5\\playwright_orangehrm\\utils\\login.ts",
+                          "column": 37,
+                          "line": 38
+                        },
+                        "snippet": "\u001b[90m   at \u001b[39mutils\\login.ts:38\n\n\u001b[0m \u001b[90m 36 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mfillPassword(password)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 37 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mclickSigup()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 38 |\u001b[39m         \u001b[36mawait\u001b[39m expect(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mloginBtn)\u001b[33m.\u001b[39mtoBeHidden()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 39 |\u001b[39m     }\u001b[0m\n\u001b[0m \u001b[90m 40 |\u001b[39m     \u001b[36masync\u001b[39m loginInvalid(username\u001b[33m:\u001b[39m string\u001b[33m,\u001b[39m password\u001b[33m:\u001b[39m string) {\u001b[0m\n\u001b[0m \u001b[90m 41 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mfillUsername(username)\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\5\\playwright_orangehrm\\utils\\login.ts",
+                            "column": 37,
+                            "line": 38
+                          },
+                          "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeHidden\u001b[2m()\u001b[22m\nCall log:\n  \u001b[2m- expect.toBeHidden with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('[type=\\'submit\\']')\u001b[22m\n\u001b[2m  -   locator resolved to <button tabindex=\"0\" type=\"submit\" data-test=\"signin-sub…>…</button>\u001b[22m\n\u001b[2m  -   unexpected value \"visible\"\u001b[22m\n\u001b[2m  -   locator resolved to <button tabindex=\"0\" type=\"submit\" data-test=\"signin-sub…>…</button>\u001b[22m\n\u001b[2m  -   unexpected value \"visible\"\u001b[22m\n\u001b[2m  -   locator resolved to <button tabindex=\"0\" type=\"submit\" data-test=\"signin-sub…>…</button>\u001b[22m\n\u001b[2m  -   unexpected value \"visible\"\u001b[22m\n\u001b[2m  -   locator resolved to <button tabindex=\"0\" type=\"submit\" data-test=\"signin-sub…>…</button>\u001b[22m\n\u001b[2m  -   unexpected value \"visible\"\u001b[22m\n\u001b[2m  -   locator resolved to <button tabindex=\"0\" type=\"submit\" data-test=\"signin-sub…>…</button>\u001b[22m\n\u001b[2m  -   unexpected value \"visible\"\u001b[22m\n\u001b[2m  -   locator resolved to <button tabindex=\"0\" type=\"submit\" data-test=\"signin-sub…>…</button>\u001b[22m\n\u001b[2m  -   unexpected value \"visible\"\u001b[22m\n\u001b[2m  -   locator resolved to <button tabindex=\"0\" type=\"submit\" data-test=\"signin-sub…>…</button>\u001b[22m\n\u001b[2m  -   unexpected value \"visible\"\u001b[22m\n\u001b[2m  -   locator resolved to <button tabindex=\"0\" type=\"submit\" data-test=\"signin-sub…>…</button>\u001b[22m\n\u001b[2m  -   unexpected value \"visible\"\u001b[22m\n\n\n\u001b[90m   at \u001b[39mutils\\login.ts:38\n\n\u001b[0m \u001b[90m 36 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mfillPassword(password)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 37 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mclickSigup()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 38 |\u001b[39m         \u001b[36mawait\u001b[39m expect(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mloginBtn)\u001b[33m.\u001b[39mtoBeHidden()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 39 |\u001b[39m     }\u001b[0m\n\u001b[0m \u001b[90m 40 |\u001b[39m     \u001b[36masync\u001b[39m loginInvalid(username\u001b[33m:\u001b[39m string\u001b[33m,\u001b[39m password\u001b[33m:\u001b[39m string) {\u001b[0m\n\u001b[0m \u001b[90m 41 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mfillUsername(username)\u001b[33m;\u001b[39m\u001b[0m\n\n\u001b[2m    at LoginPage.login (D:\\5\\playwright_orangehrm\\utils\\login.ts:38:37)\u001b[22m\n\u001b[2m    at D:\\5\\playwright_orangehrm\\tests\\login-page.spec.ts:10:9\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-06-20T07:51:43.020Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-login-page-Login-Happy-Case---New-account-chromium\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-login-page-Login-Happy-Case---New-account-chromium\\test-failed-1.png"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\5\\playwright_orangehrm\\utils\\login.ts",
+                        "column": 37,
+                        "line": 38
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "4fcda7b012e786b91deb-c967cd593ea6815d36df",
+              "file": "tests/login-page.spec.ts",
+              "line": 7,
+              "column": 9
+            },
+            {
+              "title": "Happy Case - Old account",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "issue",
+                      "description": ""
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 5388,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-06-20T07:51:43.225Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-login-page-Login-Happy-Case---Old-account-chromium\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-login-page-Login-Happy-Case---Old-account-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4fcda7b012e786b91deb-611d6c67be7ef3362d4e",
+              "file": "tests/login-page.spec.ts",
+              "line": 17,
+              "column": 9
+            },
+            {
+              "title": "Unfill username",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "issue",
+                      "description": ""
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 3914,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-06-20T07:51:48.619Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-login-page-Login-Unfill-username-chromium\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-login-page-Login-Unfill-username-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4fcda7b012e786b91deb-6e0057dd72e292cfafb6",
+              "file": "tests/login-page.spec.ts",
+              "line": 27,
+              "column": 9
+            },
+            {
+              "title": "Fill username & password < 4 characters",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "issue",
+                      "description": ""
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 5144,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-06-20T07:51:52.540Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-login-page-Login-Fill-username-password-4-characters-chromium\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-login-page-Login-Fill-username-password-4-characters-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4fcda7b012e786b91deb-64a797f1b5fc026e7f98",
+              "file": "tests/login-page.spec.ts",
+              "line": 33,
+              "column": 9
+            },
+            {
+              "title": "Username & password is invalid",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "issue",
+                      "description": ""
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 6070,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-06-20T07:51:55.801Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-login-page-Login-Username-password-is-invalid-chromium\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-login-page-Login-Username-password-is-invalid-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4fcda7b012e786b91deb-b99c69efca1cdad62df2",
+              "file": "tests/login-page.spec.ts",
+              "line": 40,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "tests\\myaccounts-page.spec.ts",
+      "file": "tests/myaccounts-page.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "My Acount",
+          "file": "tests/myaccounts-page.spec.ts",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Fill from User Setting, First & Last name is available",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 6702,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-06-20T07:51:57.710Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-myaccounts-page-My-Acount-Fill-from-User-Setting-First-Last-name-is-available-chromium\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-myaccounts-page-My-Acount-Fill-from-User-Setting-First-Last-name-is-available-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "452495efeaab7388683d-f8c9212aa0991de9c74c",
+              "file": "tests/myaccounts-page.spec.ts",
+              "line": 11,
+              "column": 9
+            },
+            {
+              "title": "Unfill from User Setting",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 6443,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-06-20T07:52:04.423Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-myaccounts-page-My-Acount-Unfill-from-User-Setting-chromium\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-myaccounts-page-My-Acount-Unfill-from-User-Setting-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "452495efeaab7388683d-68dd570b765ec6c60797",
+              "file": "tests/myaccounts-page.spec.ts",
+              "line": 16,
+              "column": 9
+            },
+            {
+              "title": "Fill Emai & Phone fail",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 6228,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-06-20T07:52:04.689Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-myaccounts-page-My-Acount-Fill-Emai-Phone-fail-chromium\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-myaccounts-page-My-Acount-Fill-Emai-Phone-fail-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "452495efeaab7388683d-8653855d4a2c65745edb",
+              "file": "tests/myaccounts-page.spec.ts",
+              "line": 21,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "tests\\new-transaction-page.spec.ts",
+      "file": "tests/new-transaction-page.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "New Transaction",
+          "file": "tests/new-transaction-page.spec.ts",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC_01 Happy case ",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "failed",
+                      "duration": 6115,
+                      "error": {
+                        "message": "locator.fill: value: expected string, got number",
+                        "stack": "Error: locator.fill: value: expected string, got number\n    at CreatedTransaction.fillPayment (D:\\5\\playwright_orangehrm\\utils\\page\\widgets\\newtransaction\\created-transaction.ts:36:30)\n    at D:\\5\\playwright_orangehrm\\tests\\new-transaction-page.spec.ts:15:64",
+                        "location": {
+                          "file": "D:\\5\\playwright_orangehrm\\utils\\page\\widgets\\newtransaction\\created-transaction.ts",
+                          "column": 30,
+                          "line": 36
+                        },
+                        "snippet": "\u001b[90m   at \u001b[39mutils\\page\\widgets\\newtransaction\\created-transaction.ts:36\n\n\u001b[0m \u001b[90m 34 |\u001b[39m     }\u001b[0m\n\u001b[0m \u001b[90m 35 |\u001b[39m     \u001b[36masync\u001b[39m fillPayment(amount\u001b[33m:\u001b[39mstring\u001b[33m,\u001b[39mnote\u001b[33m:\u001b[39mstring){\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 36 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m\u001b[33mPayamount\u001b[39m\u001b[33m.\u001b[39mfill(amount)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 37 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m\u001b[33mPayAddnote\u001b[39m\u001b[33m.\u001b[39mfill(note)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 38 |\u001b[39m         \u001b[36mawait\u001b[39m expect(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m\u001b[33mPayAddnote\u001b[39m)\u001b[33m.\u001b[39mtoHaveValue(note)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 39 |\u001b[39m     }\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\5\\playwright_orangehrm\\utils\\page\\widgets\\newtransaction\\created-transaction.ts",
+                            "column": 30,
+                            "line": 36
+                          },
+                          "message": "Error: locator.fill: value: expected string, got number\n\n\u001b[90m   at \u001b[39mutils\\page\\widgets\\newtransaction\\created-transaction.ts:36\n\n\u001b[0m \u001b[90m 34 |\u001b[39m     }\u001b[0m\n\u001b[0m \u001b[90m 35 |\u001b[39m     \u001b[36masync\u001b[39m fillPayment(amount\u001b[33m:\u001b[39mstring\u001b[33m,\u001b[39mnote\u001b[33m:\u001b[39mstring){\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 36 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m\u001b[33mPayamount\u001b[39m\u001b[33m.\u001b[39mfill(amount)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 37 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m\u001b[33mPayAddnote\u001b[39m\u001b[33m.\u001b[39mfill(note)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 38 |\u001b[39m         \u001b[36mawait\u001b[39m expect(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m\u001b[33mPayAddnote\u001b[39m)\u001b[33m.\u001b[39mtoHaveValue(note)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 39 |\u001b[39m     }\u001b[0m\n\n\u001b[2m    at CreatedTransaction.fillPayment (D:\\5\\playwright_orangehrm\\utils\\page\\widgets\\newtransaction\\created-transaction.ts:36:30)\u001b[22m\n\u001b[2m    at D:\\5\\playwright_orangehrm\\tests\\new-transaction-page.spec.ts:15:64\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-06-20T07:52:10.881Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-new-transaction-page-New-Transaction-TC-01-Happy-case--chromium\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-new-transaction-page-New-Transaction-TC-01-Happy-case--chromium\\test-failed-1.png"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\5\\playwright_orangehrm\\utils\\page\\widgets\\newtransaction\\created-transaction.ts",
+                        "column": 30,
+                        "line": 36
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "19e9f9a29b5e5d8a0862-c3200733e8318f5c5d7d",
+              "file": "tests/new-transaction-page.spec.ts",
+              "line": 11,
+              "column": 9
+            },
+            {
+              "title": "TC_02 Happy case ",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "failed",
+                      "duration": 6421,
+                      "error": {
+                        "message": "locator.fill: value: expected string, got number",
+                        "stack": "Error: locator.fill: value: expected string, got number\n    at CreatedTransaction.fillPayment (D:\\5\\playwright_orangehrm\\utils\\page\\widgets\\newtransaction\\created-transaction.ts:36:30)\n    at D:\\5\\playwright_orangehrm\\tests\\new-transaction-page.spec.ts:25:64",
+                        "location": {
+                          "file": "D:\\5\\playwright_orangehrm\\utils\\page\\widgets\\newtransaction\\created-transaction.ts",
+                          "column": 30,
+                          "line": 36
+                        },
+                        "snippet": "\u001b[90m   at \u001b[39mutils\\page\\widgets\\newtransaction\\created-transaction.ts:36\n\n\u001b[0m \u001b[90m 34 |\u001b[39m     }\u001b[0m\n\u001b[0m \u001b[90m 35 |\u001b[39m     \u001b[36masync\u001b[39m fillPayment(amount\u001b[33m:\u001b[39mstring\u001b[33m,\u001b[39mnote\u001b[33m:\u001b[39mstring){\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 36 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m\u001b[33mPayamount\u001b[39m\u001b[33m.\u001b[39mfill(amount)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 37 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m\u001b[33mPayAddnote\u001b[39m\u001b[33m.\u001b[39mfill(note)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 38 |\u001b[39m         \u001b[36mawait\u001b[39m expect(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m\u001b[33mPayAddnote\u001b[39m)\u001b[33m.\u001b[39mtoHaveValue(note)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 39 |\u001b[39m     }\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\5\\playwright_orangehrm\\utils\\page\\widgets\\newtransaction\\created-transaction.ts",
+                            "column": 30,
+                            "line": 36
+                          },
+                          "message": "Error: locator.fill: value: expected string, got number\n\n\u001b[90m   at \u001b[39mutils\\page\\widgets\\newtransaction\\created-transaction.ts:36\n\n\u001b[0m \u001b[90m 34 |\u001b[39m     }\u001b[0m\n\u001b[0m \u001b[90m 35 |\u001b[39m     \u001b[36masync\u001b[39m fillPayment(amount\u001b[33m:\u001b[39mstring\u001b[33m,\u001b[39mnote\u001b[33m:\u001b[39mstring){\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 36 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m\u001b[33mPayamount\u001b[39m\u001b[33m.\u001b[39mfill(amount)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 37 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m\u001b[33mPayAddnote\u001b[39m\u001b[33m.\u001b[39mfill(note)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 38 |\u001b[39m         \u001b[36mawait\u001b[39m expect(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m\u001b[33mPayAddnote\u001b[39m)\u001b[33m.\u001b[39mtoHaveValue(note)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 39 |\u001b[39m     }\u001b[0m\n\n\u001b[2m    at CreatedTransaction.fillPayment (D:\\5\\playwright_orangehrm\\utils\\page\\widgets\\newtransaction\\created-transaction.ts:36:30)\u001b[22m\n\u001b[2m    at D:\\5\\playwright_orangehrm\\tests\\new-transaction-page.spec.ts:25:64\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-06-20T07:52:10.930Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-new-transaction-page-New-Transaction-TC-02-Happy-case--chromium\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-new-transaction-page-New-Transaction-TC-02-Happy-case--chromium\\test-failed-1.png"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\5\\playwright_orangehrm\\utils\\page\\widgets\\newtransaction\\created-transaction.ts",
+                        "column": 30,
+                        "line": 36
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "19e9f9a29b5e5d8a0862-774cbe634cb6889b488f",
+              "file": "tests/new-transaction-page.spec.ts",
+              "line": 21,
+              "column": 9
+            },
+            {
+              "title": "Unfill from Payment",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 8738,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-06-20T07:52:20.630Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-new-transaction-page-New-Transaction-Unfill-from-Payment-chromium\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-new-transaction-page-New-Transaction-Unfill-from-Payment-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "19e9f9a29b5e5d8a0862-3857e24ed79a5c1c0ca8",
+              "file": "tests/new-transaction-page.spec.ts",
+              "line": 31,
+              "column": 9
+            },
+            {
+              "title": "  ",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "status": "failed",
+                      "duration": 8875,
+                      "error": {
+                        "message": "locator.fill: value: expected string, got number",
+                        "stack": "Error: locator.fill: value: expected string, got number\n    at CreatedTransaction.fillPayment (D:\\5\\playwright_orangehrm\\utils\\page\\widgets\\newtransaction\\created-transaction.ts:36:30)\n    at D:\\5\\playwright_orangehrm\\tests\\new-transaction-page.spec.ts:43:64",
+                        "location": {
+                          "file": "D:\\5\\playwright_orangehrm\\utils\\page\\widgets\\newtransaction\\created-transaction.ts",
+                          "column": 30,
+                          "line": 36
+                        },
+                        "snippet": "\u001b[90m   at \u001b[39mutils\\page\\widgets\\newtransaction\\created-transaction.ts:36\n\n\u001b[0m \u001b[90m 34 |\u001b[39m     }\u001b[0m\n\u001b[0m \u001b[90m 35 |\u001b[39m     \u001b[36masync\u001b[39m fillPayment(amount\u001b[33m:\u001b[39mstring\u001b[33m,\u001b[39mnote\u001b[33m:\u001b[39mstring){\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 36 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m\u001b[33mPayamount\u001b[39m\u001b[33m.\u001b[39mfill(amount)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 37 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m\u001b[33mPayAddnote\u001b[39m\u001b[33m.\u001b[39mfill(note)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 38 |\u001b[39m         \u001b[36mawait\u001b[39m expect(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m\u001b[33mPayAddnote\u001b[39m)\u001b[33m.\u001b[39mtoHaveValue(note)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 39 |\u001b[39m     }\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\5\\playwright_orangehrm\\utils\\page\\widgets\\newtransaction\\created-transaction.ts",
+                            "column": 30,
+                            "line": 36
+                          },
+                          "message": "Error: locator.fill: value: expected string, got number\n\n\u001b[90m   at \u001b[39mutils\\page\\widgets\\newtransaction\\created-transaction.ts:36\n\n\u001b[0m \u001b[90m 34 |\u001b[39m     }\u001b[0m\n\u001b[0m \u001b[90m 35 |\u001b[39m     \u001b[36masync\u001b[39m fillPayment(amount\u001b[33m:\u001b[39mstring\u001b[33m,\u001b[39mnote\u001b[33m:\u001b[39mstring){\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 36 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m\u001b[33mPayamount\u001b[39m\u001b[33m.\u001b[39mfill(amount)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 37 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m\u001b[33mPayAddnote\u001b[39m\u001b[33m.\u001b[39mfill(note)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 38 |\u001b[39m         \u001b[36mawait\u001b[39m expect(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m\u001b[33mPayAddnote\u001b[39m)\u001b[33m.\u001b[39mtoHaveValue(note)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 39 |\u001b[39m     }\u001b[0m\n\n\u001b[2m    at CreatedTransaction.fillPayment (D:\\5\\playwright_orangehrm\\utils\\page\\widgets\\newtransaction\\created-transaction.ts:36:30)\u001b[22m\n\u001b[2m    at D:\\5\\playwright_orangehrm\\tests\\new-transaction-page.spec.ts:43:64\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-06-20T07:52:20.644Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-new-transaction-page-New-Transaction--chromium\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-new-transaction-page-New-Transaction--chromium\\test-failed-1.png"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\5\\playwright_orangehrm\\utils\\page\\widgets\\newtransaction\\created-transaction.ts",
+                        "column": 30,
+                        "line": 36
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "19e9f9a29b5e5d8a0862-75a1771a053ddc846366",
+              "file": "tests/new-transaction-page.spec.ts",
+              "line": 39,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "tests\\notifications-page.spec.ts",
+      "file": "tests/notifications-page.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Notification",
+          "file": "tests/notifications-page.spec.ts",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Delete Notification",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 15029,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-06-20T07:52:32.606Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-notifications-page-Notification-Delete-Notification-chromium\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-notifications-page-Notification-Delete-Notification-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3b632ea8ee8febb3337a-ab72f01e6b18e02597fd",
+              "file": "tests/notifications-page.spec.ts",
+              "line": 11,
+              "column": 9
+            }
+          ]
+        },
+        {
+          "title": "Comment Transaction",
+          "file": "tests/notifications-page.spec.ts",
+          "line": 17,
+          "column": 6,
+          "specs": [
+            {
+              "title": "commen",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "status": "passed",
+                      "duration": 7071,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-06-20T07:52:48.079Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-notifications-page-Comment-Transaction-commen-chromium\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-notifications-page-Comment-Transaction-commen-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3b632ea8ee8febb3337a-30619680be83ce0110b4",
+              "file": "tests/notifications-page.spec.ts",
+              "line": 24,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "tests\\sigup-page.spec.ts",
+      "file": "tests/sigup-page.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Sig up",
+          "file": "tests/sigup-page.spec.ts",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Happy case",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 7014,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-06-20T07:52:47.648Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-sigup-page-Sig-up-Happy-case-chromium\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-sigup-page-Sig-up-Happy-case-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8933ebdd098c6c5c2ef5-7b53cf10089577af32e8",
+              "file": "tests/sigup-page.spec.ts",
+              "line": 7,
+              "column": 9
+            },
+            {
+              "title": "Unfill from sigup",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 6535,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-06-20T07:52:54.667Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-sigup-page-Sig-up-Unfill-from-sigup-chromium\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-sigup-page-Sig-up-Unfill-from-sigup-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8933ebdd098c6c5c2ef5-504218e6e500c0ed7a37",
+              "file": "tests/sigup-page.spec.ts",
+              "line": 14,
+              "column": 9
+            },
+            {
+              "title": "Fill all from sigup & Pasowrd at least 4 characters",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "status": "passed",
+                      "duration": 6067,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-06-20T07:52:57.889Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-sigup-page-Sig-up-Fill-all-from-sigup-Pasowrd-at-least-4-characters-chromium\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-sigup-page-Sig-up-Fill-all-from-sigup-Pasowrd-at-least-4-characters-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8933ebdd098c6c5c2ef5-e4b259ccbab5c5142ada",
+              "file": "tests/sigup-page.spec.ts",
+              "line": 20,
+              "column": 9
+            },
+            {
+              "title": "Fill all from sigup & ConfirmPassWord not match",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 5297,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-06-20T07:53:01.208Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-sigup-page-Sig-up-Fill-all-from-sigup-ConfirmPassWord-not-match-chromium\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\5\\playwright_orangehrm\\test-results\\tests-sigup-page-Sig-up-Fill-all-from-sigup-ConfirmPassWord-not-match-chromium\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8933ebdd098c6c5c2ef5-b282d2b2939d8d176bde",
+              "file": "tests/sigup-page.spec.ts",
+              "line": 26,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
